@@ -1,0 +1,78 @@
+{
+  "data": [
+    {
+      "username": "Rohan Shrestha",
+      "id": 1
+    },
+    {
+      "username": "Sital Neupane",
+      "id": 2
+    },
+    {
+      "username": "Sandhya Bhandari",
+      "id": 3
+    },
+    {
+      "username": "Rohan Shrestha",
+      "id": 4
+    },
+    {
+      "username": "Rohan Shrestha",
+      "id": 5
+    }
+  ],
+  "tweetdata": [
+    {
+      "tweet": "Rohan Shrestha",
+      "id": 1
+    },
+    {
+      "tweet": "Sandhya Bhandari",
+      "id": 2
+    },
+    {
+      "tweet": "Sandhya Bhandari",
+      "id": 3
+    },
+    {
+      "tweet": "Hello this is me Rohan Shrestha first time in linkin ",
+      "id": 4
+    },
+    {
+      "tweet": "hello this is Rohan Shrestha second time in this app linked in",
+      "date": "Tue Jan 24 2023",
+      "time": "7:32:49 PM",
+      "id": 5
+    },
+    {
+      "tweet": "hello this is me rohan shrestha second time in this app linkin which is far better then I have ever imagined this cool post which I can post is much cooler than what it look",
+      "date": "Wed Jan 25 2023",
+      "time": "8:36:02 AM",
+      "id": 6
+    },
+    {
+      "tweet": "Hello World",
+      "date": "Wed Jan 25 2023",
+      "time": "1:02:33 PM",
+      "id": 7
+    },
+    {
+      "tweet": "",
+      "date": "Wed Jan 25 2023",
+      "time": "1:02:40 PM",
+      "id": 8
+    },
+    {
+      "tweet": "Welcome to my Resume",
+      "date": "Wed Jan 25 2023",
+      "time": "1:04:00 PM",
+      "id": 9
+    },
+    {
+      "tweet": "He this is me Rohan Shrestha",
+      "date": "Wed Jan 25 2023",
+      "time": "1:54:47 PM",
+      "id": 10
+    }
+  ]
+}

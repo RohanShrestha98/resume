@@ -1,0 +1,150 @@
+{
+    "content": [
+      {
+        "id": 1,
+        "time": "08:44 AM",
+        "date": "Wed Jan 25 2023",
+        "desc" : "Hello this is me Rohan Shrestha",
+        "image" : "img/MyImage.png"
+      },
+      {
+        "id": 2,
+        "time": "11:23:08 AM",
+        "date": "Tue Aug 26 2022",
+        "desc" : "CSS is a Cascading Style Sheets used to control the layout, color, font, spacing and other visual aspects of the elements on a web page.",
+        "image" : "img/css.png"
+      },
+      {
+        "id": 3,
+        "time": "11:25 AM",
+        "date": "Sun Feb 23 2022",
+        "desc" : "I am currently studying at Herald college kathmandu where I am studing Bsc Hons ( Computer Science ) course",
+        "image" : "img/herald.jpg"
+      },
+      {
+        "id": 4,
+        "time": "18:44 AM",
+        "date": "Wed Aug 25 2022",
+        "desc" : "This is my clone website of Khudra.com.",
+        "link" :"https://singular-monstera-a69897.netlify.app/",
+        "image" : "img/khudra.png"
+      },
+      {
+        "id": 5,
+        "time": "12:05:48 AM",
+        "date": "Tue Nov 20 2022",
+        "desc" : "JavaScript is a programming language that is primarily used to create interactive front-end web applications, back-end web applications, and even desktop and mobile apps.(Initial Phase)",
+        "image" : "img/javascript.avif"
+      },
+      {
+        "id": 6,
+        "time": "09:23 AM",
+        "date": "Sun Apr 25 2022",
+        "desc" : "This is my clone website of Weather app. I have made in second semester project.",
+        "link" :"https://aesthetic-monstera-e304a5.netlify.app/",
+        "image" : "img/weather.png"
+      }
+    ],
+    "skills": [
+      {
+        "id": 1,
+        "time": "08:44:08 AM",
+        "date": "Tue Jun 20 2022",
+        "desc" : "HTML is a markup language used to create the structure and layout of a web page ",
+        "image" : "img/html.png"
+      },
+      {
+        "id": 2,
+        "time": "11:23:08 AM",
+        "date": "Tue Aug 26 2022",
+        "desc" : "CSS is a Cascading Style Sheets used to control the layout, color, font, spacing and other visual aspects of the elements on a web page.",
+        "image" : "img/css.png"
+      },
+      {
+        "id": 3,
+        "time": "17:23:48 AM",
+        "date": "Tue Oct 26 2022",
+        "desc" : "Bootstrap is a set of which provides pre-designed components, such as forms, buttons, navigation bars, and more, that can be easily added to a web page.",
+        "image" : "img/bootstrap.png"
+      },
+      {
+        "id": 4,
+        "time": "12:05:48 AM",
+        "date": "Tue Nov 20 2022",
+        "desc" : "JavaScript is a programming language that is primarily used to create interactive front-end web applications, back-end web applications, and even desktop and mobile apps.(Initial Phase)",
+        "image" : "img/javascript.avif"
+      },
+      {
+        "id": 5,
+        "time": "12:05:48 AM",
+        "date": "Tue Dec 26 2022",
+        "desc" : "React is a JavaScript library for building user interfaces. React allows developers to build complex user interfaces using small, reusable components.(Initial Phase)",
+        "image" : "img/react.jpg"
+      }
+    ],
+    "education": [
+      {
+        "id": 1,
+        "time": "08:44 AM",
+        "date": "Wed Jan 25 2023",
+        "desc" : "I had completed my SEE from Green Lawns Academy located at Balkhu- Kumari Club. Had an great experience studying there.",
+        "image" : "img/greenlawns.jpg"
+      },
+      {
+        "id": 2,
+        "time": "08:44 AM",
+        "date": "Wed Apr 25 2021",
+        "desc" : "I had completed my +2 from Kathmandu Bernhardt. Where I have taken management with Basic math and Computer science as optional subjects",
+        "image" : "img/bernhardt.png"
+      },
+      {
+        "id": 3,
+        "time": "11:25 AM",
+        "date": "Sun Feb 23 2022",
+        "desc" : "I am currently studying at Herald college kathmandu where I am studing Bsc Hons ( Computer Science ) course",
+        "image" : "img/herald.jpg"
+      }
+    ],
+    "project": [
+      {
+        "id": 1,
+        "time": "18:44 AM",
+        "date": "Wed Aug 25 2022",
+        "desc" : "This is my clone website of Khudra.com. You can simply click on the image to see the website",
+        "link" :"https://singular-monstera-a69897.netlify.app/",
+        "image" : "img/khudra.png"
+      },
+      {
+        "id": 2,
+        "time": "17:23 AM",
+        "date": "Fri Sep 25 2022",
+        "desc" : "This is my clone website of facebook.com. You can simply click on the image to see the website",
+        "link" :"https://fascinating-heliotrope-53506d.netlify.app/",
+        "image" : "img/facebook.png"
+      },
+      {
+        "id": 3,
+        "time": "09:23 AM",
+        "date": "Sun Apr 25 2022",
+        "desc" : "This is my clone website of youtube.com. You can simply click on the image to see the website",
+        "link" :"https://62e4aec76768263f324bcdd5--sage-taffy-440d26.netlify.app/",
+        "image" : "img/youtube.png"
+      },
+      {
+        "id": 4,
+        "time": "09:23 AM",
+        "date": "Sun Apr 25 2022",
+        "desc" : "This is my clone website of Weather app. I have made in second semester project. You can simply click on the image to see the website",
+        "link" :"https://aesthetic-monstera-e304a5.netlify.app/",
+        "image" : "img/weather.png"
+      },
+      {
+        "id": 5,
+        "time": "19:23 AM",
+        "date": "Sun Jun 5 2022",
+        "desc" : "This is my clone website of  Online Khabar. You can simply click on the image to see the website",
+        "link" :"https://glowing-duckanoo-f65628.netlify.app/",
+        "image" : "img/online.png"
+      }
+    ]
+}
