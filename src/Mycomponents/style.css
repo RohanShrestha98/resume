@@ -234,6 +234,7 @@ span {
 }
 
 .pages_navigator {
+    cursor: pointer;
     text-decoration: none;
     margin-left: 18px;
     color: rgb(10, 102, 194);
@@ -246,6 +247,62 @@ span {
 .pages_navigator i {
     font-size: 16px;
     color: #0076B2;
+}
+
+.pages_navigator2 {
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 18px;
+    color: rgb(10, 102, 194);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+.pages_navigator2 i {
+    font-size: 16px;
+    width: 26px;
+    color: #0076B2;
+}
+
+.active2 {
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 18px;
+    color: gray;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+.active2 i {
+    font-size: 16px;
+    width: 26px;
+    color: #53585a;
+}
+
+.cross {
+    display: flex;
+    justify-content: end;
+}
+
+.cross i {
+    font-size: 20px;
+}
+
+.active {
+    text-decoration: none;
+    margin-left: 18px;
+    color: gray;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.active i {
+    font-size: 16px;
+    color: #53585a;
 }
 
 .menuline {
@@ -411,16 +468,18 @@ span {
 
 .education {
     padding: 6px 14px;
+
 }
 
 .education h5 {
     font-size: 16px;
     font-weight: 600;
     padding-bottom: 6px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid gray;
 }
 
 .education p {
+
     padding-top: 6px;
     font-size: 13px;
     font-weight: 500;
@@ -629,9 +688,27 @@ span {
     }
 }
 
+@media (max-width:890px) {
+    .profileImage {
+        margin-right: 20px;
+    }
+
+    .profileNameEmail {
+        display: none;
+    }
+}
+
 @media (max-width:790px) {
+    .profileNameEmail {
+        display: none;
+    }
+
     .menuline {
         display: inline;
+    }
+
+    .ProfileDropDown {
+        display: none;
     }
 
     .pages {

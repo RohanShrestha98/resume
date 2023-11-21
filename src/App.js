@@ -1,19 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LoginForm from './Mycomponents/LoginForm';
-import Resume from './Mycomponents/Resume';
-import ActualResume from './Mycomponents/ActualResume';
-import SearchBar from './Mycomponents/SearchBar';
-import Header from './Mycomponents/Header';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ActualResume from "./Mycomponents/ActualResume";
 
 function App() {
-  
   return (
     <div className="App">
       <Router>
         <Routes>
-          <Route path='*' element={<ActualResume/>}/>
+          <Route path="*" element={<ActualResume />} />
         </Routes>
       </Router>
     </div>
