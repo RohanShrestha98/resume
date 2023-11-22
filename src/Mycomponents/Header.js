@@ -6,6 +6,8 @@ import { useState } from "react";
 import Skills from "./Skills";
 import Education from "./Education";
 import Project from "./Project";
+import logo from "../assets/linkedin.png";
+import loading from "../assets/loading.gif";
 
 export default function Header() {
   const [menu, setmenu] = useState(false);
@@ -63,9 +65,7 @@ export default function Header() {
   };
 
   const handleChange = (event) => {
-    setTimeout(() => {
-      navigate(event.target.value);
-    }, [5000]);
+    navigate(event.target.value);
   };
 
   const handleMenuClick = () => {
@@ -402,21 +402,24 @@ export default function Header() {
                   {skills?.map((item) => {
                     return (
                       <p>
-                        <b>{item?.id}.</b> {item?.name}
+                        <b>
+                          {item?.id}. {item?.name}
+                        </b>
                         <div
                           style={{
-                            background: "100%",
-                            backgroundColor: "red",
-                            height: "10px",
+                            width: "100%",
+                            marginTop: "8px",
+                            backgroundColor: "rgb(195, 194, 194) ",
                             borderRadius: "20px",
+                            height: "9px",
                           }}
                         >
                           <div
                             style={{
-                              background: `${item?.percent}%`,
-                              backgroundColor: "green  !important",
-                              height: "10px",
+                              width: `${item?.percent}%`,
+                              backgroundColor: "#1ca01c ",
                               borderRadius: "20px",
+                              height: "9px",
                             }}
                           ></div>
                         </div>
@@ -596,7 +599,11 @@ export default function Header() {
           </div>
         </>
       ) : (
-        <p>Loading...</p>
+        <div className="first_loader">
+          <img src={logo} className="logo_loader" alt="" />
+          <p>This is my portfolio donot get confuse.</p>
+          <img className="loader" src={loading} alt="" />
+        </div>
       )}
     </>
   );
